@@ -12,8 +12,10 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 100vh;
     font-family: "Noto Sans Hebrew", sans-serif;
+    min-height: 90vh; 
+    overflow-y: auto;
+    
 
 }
 
@@ -46,6 +48,8 @@ body{
 }
 
 input[type="email"],
+input[type="text"],
+input[type="tel"],
 input[type="password"]{
     width: 100%;;
     padding: 6px;
